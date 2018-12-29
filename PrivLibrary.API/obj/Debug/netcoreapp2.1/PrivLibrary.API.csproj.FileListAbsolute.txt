@@ -12,3 +12,17 @@ C:\Projekty\PrivLibrary\PrivLibrary.API\obj\Debug\netcoreapp2.1\PrivLibrary.API.
 C:\Projekty\PrivLibrary\PrivLibrary.API\obj\Debug\netcoreapp2.1\PrivLibrary.API.RazorTargetAssemblyInfo.cache
 C:\Projekty\PrivLibrary\PrivLibrary.API\obj\Debug\netcoreapp2.1\PrivLibrary.API.dll
 C:\Projekty\PrivLibrary\PrivLibrary.API\obj\Debug\netcoreapp2.1\PrivLibrary.API.pdb
+C:\Projekty\Priv Library\PrivLibrary.API\bin\Debug\netcoreapp2.1\PrivLibrary.API.deps.json
+C:\Projekty\Priv Library\PrivLibrary.API\bin\Debug\netcoreapp2.1\PrivLibrary.API.runtimeconfig.json
+C:\Projekty\Priv Library\PrivLibrary.API\bin\Debug\netcoreapp2.1\PrivLibrary.API.runtimeconfig.dev.json
+C:\Projekty\Priv Library\PrivLibrary.API\bin\Debug\netcoreapp2.1\PrivLibrary.API.dll
+C:\Projekty\Priv Library\PrivLibrary.API\bin\Debug\netcoreapp2.1\PrivLibrary.API.pdb
+C:\Projekty\Priv Library\PrivLibrary.API\obj\Debug\netcoreapp2.1\PrivLibrary.API.csprojAssemblyReference.cache
+C:\Projekty\Priv Library\PrivLibrary.API\obj\Debug\netcoreapp2.1\PrivLibrary.API.csproj.CoreCompileInputs.cache
+C:\Projekty\Priv Library\PrivLibrary.API\obj\Debug\netcoreapp2.1\PrivLibrary.API.RazorAssemblyInfo.cache
+C:\Projekty\Priv Library\PrivLibrary.API\obj\Debug\netcoreapp2.1\PrivLibrary.API.RazorAssemblyInfo.cs
+C:\Projekty\Priv Library\PrivLibrary.API\obj\Debug\netcoreapp2.1\PrivLibrary.API.AssemblyInfoInputs.cache
+C:\Projekty\Priv Library\PrivLibrary.API\obj\Debug\netcoreapp2.1\PrivLibrary.API.AssemblyInfo.cs
+C:\Projekty\Priv Library\PrivLibrary.API\obj\Debug\netcoreapp2.1\PrivLibrary.API.RazorTargetAssemblyInfo.cache
+C:\Projekty\Priv Library\PrivLibrary.API\obj\Debug\netcoreapp2.1\PrivLibrary.API.dll
+C:\Projekty\Priv Library\PrivLibrary.API\obj\Debug\netcoreapp2.1\PrivLibrary.API.pdb
