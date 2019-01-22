@@ -36,7 +36,7 @@ namespace PrivLibrary.API.Data
             using(var hmac = new System.Security.Cryptography.HMACSHA512(passwordSalt))
              {
                  
-                 var computedHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
+                var computedHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
                 for(int i = 0; i < computedHash.Length; i++)
                 {
                     if(computedHash[i] != passwordHash[i]) 
@@ -77,7 +77,7 @@ namespace PrivLibrary.API.Data
                 {
                     return true;
                 }
-                return false;
+            return false;
         }
     }
 }
