@@ -1,6 +1,7 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using PrivLibrary.API.Data;
+using PrivLibrary.API.DTOs;
 using PrivLibrary.API.Models;
 
 namespace PrivLibrary.API.Controllers
@@ -19,19 +20,19 @@ namespace PrivLibrary.API.Controllers
 
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register (string username, string password)
+        public async Task<IActionResult> Register (UserForRegisterDto userForRegisterDTO)
         {
             //validation will be added soon
-            username = username.ToLower();
-            if(await _repo.UserExist(username))
+            userForRegisterDTO.Username = userForRegisterDTO.Username.ToLower();
+            if(await _repo.UserExist(userForRegisterDTO.Username))
                 return BadRequest("Username already exist");
 
             var userToCreate = new User
             {
-                Username = username
+                Username = userForRegisterDTO.Username
             };
 
-            var createdUser = await _repo.Register(userToCreate, password);
+            var createdUser = await _repo.Register(userToCreate, userForRegisterDTO.Password);
 
             return StatusCode(201);
 
